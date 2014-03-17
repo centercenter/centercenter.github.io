@@ -1,0 +1,41 @@
+@media all and (max-device-height: 815px) {
+.carousel-container, .galery_bg nav {
+	top: 35px !important}
+.galery_bg {
+	padding-top: 20px;}
+#carousel-left, #carousel-right {
+	bottom: -100px !important;}
+.carousel-feature .carousel-caption {
+	bottom: -70px !important;}		}	
+@media all and (min-device-height: 820px) and (max-device-height: 880px) {
+.carousel-container, .galery_bg nav {
+	top: 45px !important}
+.galery_bg {
+	padding-top: 25px;}	}	
+@media all and (min-device-height: 882px) and (max-device-height: 1001px) {
+.carousel-container, .galery_bg nav {
+	top: 55px !important}
+.galery_bg {
+	padding-top: 30px;}	}		
+@media all and (min-device-height: 1002px) {
+.carousel-container, .galery_bg nav {
+	top: 65px !important}
+.galery_bg {
+	padding-top: 50px;}}	
+	/*-----------1280x960---------*/
+@media all and (device-height: 960px) and (max-width: 1280px) {
+#carousel-left, #carousel-right {
+	bottom: -150px !important;}
+.carousel-feature .carousel-caption {
+	bottom: -120px !important;}	}
+@media all and (device-height: 900px) and (device-width: 1440px) {
+#carousel-left, #carousel-right {
+	bottom: -145px !important;}
+.carousel-feature .carousel-caption {
+	bottom: -115px !important;}}
+/*-----------1280x960---------*/
+@media all and (device-height: 900px) and (device-width: 1600px) {
+#carousel-left, #carousel-right {
+	bottom: -155px !important;}
+.carousel-feature .carousel-caption {
+	bottom: -125px !important;}	}	
