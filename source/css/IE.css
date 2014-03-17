@@ -1,0 +1,65 @@
+#index #header {
+	text-align: center;}
+#index #nav {
+	width: 650px;}
+#footer .links {
+	width: 350px;}
+a {
+	outline: none;}
+.active {
+	margin-right: 32px !important;
+	margin-left: -13px !important;}
+dl {
+	padding-right: 10px;
+	font-size: 13pt;}
+.blocks h2{
+	font-size: 22pt;}	
+	
+@media all and (min-device-height: 795px) and (max-device-height: 900px) {
+.blocks {
+	height: 425px !important;}	
+.active {
+	margin-right: 34px !important;
+	margin-left: -11px !important;}}
+@media all and (max-device-height: 815px) {
+#footer div {	
+	font-size: 12pt !important;
+	padding-left: 30px;}
+.blocks {
+	height: 400px !important;}	
+.index_text {
+	font-size: 21pt !important;}}
+@media all and (min-device-height: 901px) and (max-device-height: 1024px) and (max-width: 1280px) {
+.index_image img {
+	height: 600px;}	
+.index_image {
+	width: 750px !important;
+	margin-left: 50px !important;
+	margin-right: 0px !important;}
+.galery, .galery_brow {
+	margin-top: 25px !important;
+	margin-bottom: 5px !important;}
+.button_bg {
+	top: 20px !important}	
+#two .button_bg {
+	top: 0px !important}	
+.image {
+	min-height: 120px !important;}
+.image img {
+	height: 120px !important;
+	width: 120px !important;}
+.blocks {
+	height: 490px !important;}	
+dl {
+	font-size: 12pt !important;}	
+.index_text {
+	font-size: 21pt !important;}}
+@media all and (device-height: 900px) and (device-width: 1440px) {
+#carousel-left, #carousel-right {
+	bottom: -100px !important;}
+.carousel-feature .carousel-caption {
+	bottom: -70px !important;}}	
+	/*-----------1280x960---------*/
+@media all and (device-height: 900px) and (device-width: 1600px) {
+.galery_bg {
+	margin-bottom: 270px !important;}	}	
